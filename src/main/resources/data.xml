@@ -1,0 +1,36 @@
+<XMLResponse>
+    <books>
+        <book>
+            <title>W pustyni i w puszczy</title>
+            <numberOfPages>120</numberOfPages>
+            <releaseDate>2022-01-25</releaseDate>
+            <authorId>1</authorId>
+            <publisherId>1</publisherId>
+        </book>
+    </books>
+    <people>
+        <person>
+            <firstname>Jan</firstname>
+            <surname>Kowalski</surname>
+            <dateOfBirth>1998-01-25</dateOfBirth>
+        </person>
+        <person>
+            <firstname>Paweł</firstname>
+            <surname>Nowak</surname>
+            <dateOfBirth>2001-05-12</dateOfBirth>
+        </person>
+    </people>
+    <publishers>
+        <publisher>
+            <name>Helion</name>
+        </publisher>
+    </publishers>
+    <bookBorrows>
+        <bookBorrow>
+            <borrowDate>2022-01-12</borrowDate>
+            <expireDate>2022-03-12</expireDate>
+            <borrowerId>1</borrowerId>
+            <bookId>1</bookId>
+        </bookBorrow>
+    </bookBorrows>
+</XMLResponse>
